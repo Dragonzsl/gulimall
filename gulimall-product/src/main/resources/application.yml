@@ -1,0 +1,44 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.56.100/gulimall_pms
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI4G6nFN9mtFxZZzdH1oo2
+      secret-key: MZg6gBTghZVlIOLzaYynAIaQpyeTHY
+      oss:
+        endpoint: oss-cn-qingdao.aliyuncs.com
+  application:
+    name: gulimall-product
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-value: 1
+      logic-not-delete-value: 0 #逻辑删除
+
+
+server:
+  port: 10000
+
+#  alibaba.cloud.access-key=your-ak
+#  alibaba.cloud.secret-key=your-sk
+#alibaba:
+#  cloud:
+#    access-key: LTAI4G6nFN9mtFxZZzdH1oo2
+#    secret-key: MZg6gBTghZVlIOLzaYynAIaQpyeTHY
+#    oss:
+#      endpoint: oss-cn-qingdao.aliyuncs.com
+#  alibaba.cloud.oss.endpoint=***
+logging:
+  level:
+    com.shilin.gulimall.product: debug
