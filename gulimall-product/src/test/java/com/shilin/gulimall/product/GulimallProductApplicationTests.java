@@ -35,8 +35,8 @@ class GulimallProductApplicationTests {
         String endpoint = "http://oss-cn-qingdao.aliyuncs.com";
 		// 云账号AccessKey有所有API访问权限，建议遵循阿里云安全最佳实践，创建并使用RAM子账号进行API访问或日常运维，
 		// 请登录 https://ram.console.aliyun.com 创建。
-        String accessKeyId = "LTAI4G6nFN9mtFxZZzdH1oo2";
-        String accessKeySecret = "MZg6gBTghZVlIOLzaYynAIaQpyeTHY";
+        String accessKeyId = "LTAI4*************oo2";
+        String accessKeySecret = "MZg6gB************eTHY";
 
 		// 创建OSSClient实例。
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
