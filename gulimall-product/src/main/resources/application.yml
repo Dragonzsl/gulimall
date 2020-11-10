@@ -34,8 +34,8 @@ server:
 #  alibaba.cloud.secret-key=your-sk
 #alibaba:
 #  cloud:
-#    access-key: LTAI4G6nFN9mtFxZZzdH1oo2
-#    secret-key: MZg6gBTghZVlIOLzaYynAIaQpyeTHY
+#    access-key: LTAI4************dH1oo2
+#    secret-key: MZg6g******************eTHY
 #    oss:
 #      endpoint: oss-cn-qingdao.aliyuncs.com
 #  alibaba.cloud.oss.endpoint=***
