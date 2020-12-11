@@ -25,10 +25,4 @@ Sleuth+Zipkin链路追踪系统、Spring Cache缓存、SpringSession跨子域Ses
 使用集群化部署，包括Redis Cluster集群，MySQL主从与分库分表(使用ShardingSphere完成)集群，RabbitMQ镜像队列集群，
 ElasticSearch高可用集群。基于kubesphere整合Jenkins全可视化CICD，全套Pipeline流水线编写，参数化构建+手动确认模式保证。
 
-### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
 
